@@ -1,8 +1,7 @@
 ---
 day: 3
-title: "C- L3, CP - 2"
-description: "C- L3, CP - 2
-(Pointers and Dynamic Mem allocation)"
+title: "Pointers and Dynamic Memory allocation"
+description: "Pointers and Dynamic Memory allocation"
 ---
 
 ## Pointers

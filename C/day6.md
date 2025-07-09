@@ -1,14 +1,10 @@
 ---
 day: 6
-title: "C- L6, CP - 2"
-description: "C- L6, CP - 2
-(Data Structures
-Stacks and Queues)"
+title: "Data Structures"
+description: "Data Structures operations types"
 ---
 
-# Day 6 - Data Structures
-
-## Data Structures
+# Data Structures
 
 ### Definition
 A `data structure` is a way of organizing and storing data in a computer so that it can be accessed and modified efficiently.

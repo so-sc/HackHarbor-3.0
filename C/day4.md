@@ -1,11 +1,10 @@
 ---
 day: 4
-title: "C- L4, CP - 2"
-description: "C- L4, CP - 2
-(Structures and Unions)"
+title: "Structures and Unions"
+description: "Structures and Unions"
 ---
 
-# Day 4 - Structures and Unions
+# Structures and Unions
 
 ## Structures
 

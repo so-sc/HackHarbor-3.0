@@ -1,8 +1,7 @@
 ---
 day: 2
-title: "C- L2, CP - 2"
-description: "C- L2, CP - 2
-(Functions, Strings and arrays)"
+title: "Functions"
+description: "Functions, space and time complexity"
 ---
 
 ## Function Basics: Definition, Declaration, and Calling Functions

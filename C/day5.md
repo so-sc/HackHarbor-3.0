@@ -1,13 +1,10 @@
 ---
 day: 5
-title: "C- L5, CP - 2"
-description: "C- L5, CP - 2
-(File Handling)"
+title: "File Operations"
+description: "File Operations"
 ---
 
-# Day 5 - File Operations
-
-## File Operations
+# File Operations
 
 ### Opening a File
 A file can be opened using the `fopen()` function, which returns a file pointer.

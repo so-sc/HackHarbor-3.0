@@ -1,7 +1,7 @@
 ---
 day: 1
 title: "Refresher to C programming"
-description: "History of C, basic syntax, hello-world, operators and expressions, Covering Conditional Statements, Loops, Scope and Lifetime of Variables and Errors"
+description: "basic syntax, operators and expressions, Conditional Statements, Loops, Scope and Lifetime of Variables and Errors"
 ---
 
 # Day 1 - Refresher to C Programming
@@ -75,8 +75,10 @@ Some other format specifiers are
 * `%c` -char
 * `%lf` - long float/double
 * `%s` - string/character_array
+
 # Operators and Expressions
-### Arithmetic Operators
+
+## Arithmetic Operators
 
 Arithmetic operators are used to perform basic mathematical operations.
 
@@ -230,8 +232,6 @@ int b = 2;
 float result = (float)a / b;  // a is explicitly cast to float
 printf("Result: %.2f\n", result);  // Output: Result: 2.50
 ```
-
-# Part 2 - Blocks
 
 ## Conditional Statements
 
