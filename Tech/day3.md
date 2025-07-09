@@ -4,8 +4,6 @@ title: "Webdev basics - Intro to HTML CSS, How the web works, Dynamic and static
 description: "Webdev basics - Intro to HTML CSS, How the web works, Dynamic and static pages"
 ---
 
-# Day 3 - Webdev basics - Intro to HTML CSS, How the web works, Dynamic and static pages
-
 ## 1. How the Web Works
 
 **What to Teach:**
