@@ -4,7 +4,7 @@ title: "Refresher to C programming"
 description: "basic syntax, operators and expressions, Conditional Statements, Loops, Scope and Lifetime of Variables and Errors"
 ---
 
-# Day 1 - Refresher to C Programming
+# Refresher to C Programming
 <!-- Course content goes here -->
 ## Setting up the Environment
 Installing a compiler: [GCC (MinGW)](https://sourceforge.net/projects/mingw/files/Installer/)

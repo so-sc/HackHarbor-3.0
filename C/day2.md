@@ -4,7 +4,7 @@ title: "Functions"
 description: "Functions, space and time complexity"
 ---
 
-## Function Basics: Definition, Declaration, and Calling Functions
+# Function Basics: Definition, Declaration, and Calling Functions
 
 ### Definition
 A function definition provides the actual body of the function. It includes the function's return type, name, parameters, and body.

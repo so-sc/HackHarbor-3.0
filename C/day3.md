@@ -4,7 +4,7 @@ title: "Pointers and Dynamic Memory allocation"
 description: "Pointers and Dynamic Memory allocation"
 ---
 
-## Pointers
+# Pointers
 
 ### Definition
 A pointer is a variable that stores the memory address of another variable.
