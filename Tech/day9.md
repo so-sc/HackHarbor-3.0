@@ -10,6 +10,16 @@ description: "SQL and Open Source"
 
 ## Open Source
 
+**Before Class:**
+
+ * Ensure students have Git and GitHub installed and set up
+
+ * Make sure all students have GitHub accounts
+
+ * Prepare a list of beginner-friendly open source repositories (e.g., from goodfirstissue.dev)
+
+ * Test Wi-Fi access for cloning and pushing to repositories
+
 ## 1. What is Open Source?
 
 * **Definition:**
