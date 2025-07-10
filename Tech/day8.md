@@ -4,7 +4,7 @@ title: "Docker and Open Source"
 description: "Docker and Open Source"
 ---
 
-# Day 8 - Docker and LLMs
+# Day 8 - Docker and Open Source
 
 <!-- Course content goes here -->
 
