@@ -95,7 +95,7 @@ docker run hello-world
 docker run -d -p 8080:80 nginx
 ```
 
-➡ Visit `http://localhost:8080` in browser
+-> Visit `http://localhost:8080` in browser
 
 ---
 
@@ -119,7 +119,7 @@ docker run -d -p 8080:80 nginx
 docker run -d -p 3000:80 httpd
 ```
 
-➡ Visit `http://localhost:3000` to see Apache HTTP server running
+-> Visit `http://localhost:3000` to see Apache HTTP server running
 
 ---
 
