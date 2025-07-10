@@ -90,6 +90,10 @@ Git lets you:
 * Merge changes safely with others.
 * Contribute to projects collaboratively via platforms like **GitHub**, **GitLab**, etc.
 
+<div style="text-align: center;">
+  <img src="./assets/Git_workflow.jpg" alt="Git Workflow" width="500">
+</div>
+
 ---
 
 ### Getting Started with Git
