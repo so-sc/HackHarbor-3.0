@@ -8,8 +8,7 @@ description: "Development Environment setup + Vscode basics
 # Day 1 - Development Environment setup + Vscode basics
 
 <!-- Course content goes here -->
+### Installation
+Refer the PPT given:
+[Installation.pptx](https://github.com/user-attachments/files/21161487/Installation.pptx)
 
-## Sub Heading
-
-### Section
-Content
