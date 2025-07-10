@@ -131,7 +131,6 @@ Today You Learned:
 * How Docker simplifies packaging and running applications
 * Key Docker concepts: image, container, Dockerfile, Hub
 * Ran real containers: `hello-world`, `nginx`, `httpd`
-* Concept of building your own image with a Dockerfile
 
 ---
 
