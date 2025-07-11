@@ -425,7 +425,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY
 ### 📬 Use in Postman:
 
 * Method: `POST`
-* URL: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY`
+* URL: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_API_KEY`
 * Headers:
 
 ```
