@@ -49,6 +49,7 @@ Basics to Advanced C programming course and technologies for HackHarbor 3.0
 ### 🔹 D-7
 
 - [C](C/day7.md): _Implementation and understanding of linked lists in C._
+- [Technology](Tech/day7.md): _Internship Syllabus: Generative AI, LLM APIs, Prompt Engineering & AI Tools._
 
 ---
 
