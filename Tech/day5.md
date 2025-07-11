@@ -21,14 +21,7 @@ It acts as a **messenger** between two software components, allowing them to com
 > * The waiter (API) takes your request to the kitchen.
 > * The kitchen (server) prepares the food and sends it back through the waiter (API).
 
-```
-📷 Image Suggestion: "API as Waiter Analogy"
-
-- Left: A person sitting at a table holding a menu (User)
-- Middle: A waiter labeled "API" taking notes
-- Right: A kitchen (Server) preparing food
-- Arrow showing flow: User → API → Server → API → User
-```
+![Waiter example for an API](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/api-waiter-visual.webp)
 
 ---
 
@@ -62,13 +55,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=API_KEY
 
 📦 The server responds with structured weather data in JSON format.
 
-```
-📷 Image Suggestion: "Weather API Request-Response Flow"
-
-- Browser or App → Weather API URL with query param (?q=Delhi)
-- Server responds with JSON (temperature, city name, etc.)
-- Label key parts: URL, Request, Response, JSON Data
-```
+![Weather API Request-Response Flow](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Weather%20API%20Response.png)
 
 ---
 
@@ -86,14 +73,8 @@ Body:
 }
 ```
 
-```
-📷 Image Suggestion: "POST Request with JSON Body"
+![POST Request with JSON Body](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/POST%20Request%20with%20JSON%20Body.png)
 
-- Frontend UI: Form with title & body
-- Arrow → API endpoint with JSON
-- Show the structure of body fields being sent
-- Mention Content-Type: application/json
-```
 ---
 
 # 📘 Topic 2: REST, HTTP Methods & Status Codes
@@ -104,13 +85,7 @@ Body:
 
 A RESTful API uses **resources**, identified by **URLs**, and standard **HTTP methods** to perform actions on them.
 
-```
-📷 Image Suggestion: "RESTful API Resource Model"
-
-- Icons representing 'Post', 'User', 'Comment'
-- Each resource mapped to a URL like /posts, /users, /comments
-- Arrows showing HTTP methods like GET, POST, PUT, DELETE operating on them
-```
+![RESTful API Resource Model](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/RESTful%20API%20Resource%20Model.png)
 
 ---
 
@@ -135,14 +110,6 @@ A RESTful API uses **resources**, identified by **URLs**, and standard **HTTP me
 | Update a post   | `PUT`    | `/posts/1` |
 | Delete a post   | `DELETE` | `/posts/1` |
 
-```
-📷 Image Suggestion: "HTTP Method to Action Mapping"
-
-- REST resource 'Post'
-- Lines from each method → a different action (like retrieve, create, update, delete)
-- Add a sample endpoint for each method (GET /posts/1, etc.)
-```
-
 ---
 
 ## 📟 HTTP Status Codes
@@ -156,14 +123,7 @@ A RESTful API uses **resources**, identified by **URLs**, and standard **HTTP me
 | 404  | Not Found             | Resource not found                   |
 | 500  | Internal Server Error | Generic server failure               |
 
-```
-📷 Image Suggestion: "HTTP Status Code Chart"
-
-- Green: 2xx Success
-- Yellow: 4xx Client Error
-- Red: 5xx Server Error
-- Include examples like 200 OK, 404 Not Found, etc.
-```
+![HTTP Status Code Chart](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/HTTP%20Status%20Code%20Chart.png)
 
 ---
 
