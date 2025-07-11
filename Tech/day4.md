@@ -874,7 +874,7 @@ npm install express
 - [JavaScript.info – Events](https://javascript.info/introduction-browser-events)
 
 ## 🧪 Practice Platforms
-- Online Editor:- Your very own console (OR) NodeJS (OR) [JSFiddle](https://jsfiddle.net/)
+- Online Editor:- Your very own browser (OR) NodeJS (OR) [JSFiddle](https://jsfiddle.net/)
 - Try JS Instantly:- [CodePen](https://codepen.io/)
 - Build a small project:- [FreeCodeCamp JS Calorie Counter](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-form-validation-by-building-a-calorie-counter)
 
