@@ -95,12 +95,6 @@ V8 is Google's open-source JavaScript engine written in C++.
 ```
 📝 This small code shows how JavaScript can interact with HTML by changing the text of an element when a button is clicked.
 
-## 📚 Summary
-- JavaScript makes the web dynamic.
-- Runs in browsers via engines like V8.
-- Works with HTML & CSS to build interactive sites.
-- Key to modern front-end development.
-
 <br>
 
 # 🔗 2. Connecting JavaScript with HTML & CSS
@@ -252,14 +246,6 @@ JavaScript can:
 
 ![A pyramid with HTML at base, CSS above, and JS on top adding dynamic behavior](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/pyramid-html-css-js.png)
 
-<br>
-
-## 📚 Summary
-
-* JavaScript can be included **inline**, **internally**, or **externally**.
-* Best practice: Use **external JS** files placed at the end of the `<body>`.
-* JavaScript can dynamically interact with both **HTML structure** and **CSS styling**.
-
 ---
 
 # 🔢 3. JavaScript Syntax & Variables
@@ -402,16 +388,6 @@ let city;                // Undefined
 
 ![chart showing all primitive and non-primitive types](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/datatypes-js.png)
 
-<br>
-
-## 📚 Summary
-
-* Use `let` and `const`; avoid `var` in modern code.
-* JS supports dynamic typing with primitive data types.
-* Comments help explain or disable code.
-* Use operators to perform logic and math.
-* Syntax is C-like: case-sensitive and semicolon-friendly.
-
 ---
 
 # 🧩 4. Functions & Events
@@ -514,15 +490,6 @@ You can attach events using:
 
 ![Diagram showing function call stack or how events flow from browser to handler](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/function-call-stack-js.png)
 
-<br>
-
-## 📚 Summary
-
-* Functions are blocks of code that can be reused.
-* You can pass parameters and get return values.
-* JS reacts to user actions via **events**.
-* `addEventListener()` is the preferred way to handle events.
-
 ---
 
 # 🔀 5. Conditional Logic & Loops
@@ -606,16 +573,6 @@ while (i < 5) {
 }
 ```
 
-### 🔁 do...while Loop
-
-```js
-let i = 0;
-do {
-  console.log("Do While", i);
-  i++;
-} while (i < 5);
-```
-
 <br>
 
 ## 🔚 break and continue
@@ -650,14 +607,6 @@ for (let i = 1; i <= 5; i++) {
 <br>
 
 ![Flowchart showing branching and loop cycles](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/conditional-looping-js.jpg)
-
-<br>
-
-## 📚 Summary
-
-* Use `if`, `else if`, and `switch` for decision-making
-* Loops (`for`, `while`, `do...while`) help repeat actions
-* Use `break` to exit early and `continue` to skip an iteration
 
 ---
 
@@ -697,14 +646,6 @@ console.log(nums);
 let colors = ["red", "green", "blue"];
 for (let i = 0; i < colors.length; i++) {
   console.log(colors[i]);
-}
-```
-
-### Using `for...of`:
-
-```js
-for (let color of colors) {
-  console.log(color);
 }
 ```
 
@@ -776,16 +717,6 @@ for (let key in student) {
 |                                    |                                        |
 | `console.log(fruits[0]);`          | `console.log(student.name);`           |
 | `// "apple"`                       | `// "Alice"`                           |
-
-
-<br>
-
-## 📚 Summary
-
-* Arrays store ordered lists, accessed by index.
-* Objects store named properties, accessed by key.
-* Use loops (`for`, `for...of`, `for...in`) to traverse data.
-* Arrays and objects are essential for working with data in JS.
 
 ---
 
@@ -904,13 +835,51 @@ document.getElementById("myImg").setAttribute("alt", "Sample Image");
 
 ![Diagram showing hierarchy of HTML tags as tree nodes](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/dom-tree-strucutre.png)
 
-<br>
+---
 
-## 📚 Summary
+# 🧰 Bonus: What Are Node.js and npm?
 
-* The DOM allows JavaScript to interact with web content.
-* Use `getElementById`, `querySelector`, etc., to target elements.
-* Modify content, style, attributes, or structure using DOM methods.
-* DOM manipulation is key for dynamic and interactive websites.
+Even though not needed for basic web JavaScript, these tools are essential if you want to move into **backend development**, **build tools**, or **large projects**:
+
+## 🌍 Node.js
+
+* A runtime environment that lets you run JavaScript **outside the browser**.
+* Built on the **V8 engine** (same as Chrome).
+* Used for building servers, tools, and full-stack apps.
+
+```bash
+node script.js
+```
+
+## 📦 npm (Node Package Manager)
+
+* Comes with Node.js
+* Lets you install and manage **packages/libraries** made by others.
+
+```bash
+npm install express
+```
+
+> You won’t need these for browser-based JS learning — but they are **must-know** tools once you get into advanced JS or backend development.
+
+---
+
+# 🔗 Links
+## 📘 JavaScript Basics
+- [Mozilla MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/)
+
+## 🧱 DOM & Events
+- [MDN – Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- [JavaScript.info – Events](https://javascript.info/introduction-browser-events)
+
+## 🧪 Practice Platforms
+- Online Editor:- Your very own console (OR) NodeJS (OR) [JSFiddle](https://jsfiddle.net/)
+- Try JS Instantly:- [CodePen](https://codepen.io/)
+- Build a small project:- [FreeCodeCamp JS Calorie Counter](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-form-validation-by-building-a-calorie-counter)
+
+## 🧠 Deep Dives (for later exploration)
+- [Google Developers Blog – V8](https://v8.dev/)
+- [MDN – How JavaScript works](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
 
 ---
