@@ -1,4 +1,4 @@
-# Internship Syllabus: Generative AI, LLM APIs, Prompt Engineering & AI Tools  
+# Generative AI, LLM APIs, Prompt Engineering & AI Tools  
 _For 2nd Year Engineering Students_
 
 ---
