@@ -135,12 +135,7 @@ A RESTful API uses **resources**, identified by **URLs**, and standard **HTTP me
 
 You can send requests like `GET`, `POST`, `PUT`, and `DELETE` and view responses easily — great for learning and testing.
 
-```
-📷 Image Suggestion: "Postman Interface Overview"
-
-- Screenshot showing Postman UI
-- Highlight: Method dropdown (GET, POST), URL input box, Body tab, and Send button
-```
+![Postman Interface Overview](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Postman%20Interface%20Overview.png)
 
 ---
 
@@ -166,12 +161,7 @@ Postman will show a JSON response like:
 }
 ```
 
-```
-📷 Image Suggestion: "GET Request in Postman"
-
-- URL bar filled with JSONPlaceholder URL
-- Response panel showing JSON data
-```
+![GET Request in Postman](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/GET%20Request%20in%20Postman.png)
 
 ---
 
@@ -194,13 +184,7 @@ Postman will show a JSON response like:
 
 You’ll see a response with your submitted data and a new `id`.
 
-```
-📷 Image Suggestion: "POST Request with Body in Postman"
-
-- Highlight JSON Body tab and dropdown set to `application/json`
-- Response showing created resource with `id`
-```
-
+![POST Request with Body in Postman](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/POST%20Request%20with%20Body%20in%20Postman.png)
 ---
 
 ## 📋 Headers to Know
@@ -214,13 +198,6 @@ You’ll see a response with your submitted data and a new `id`.
 
 * `https://jsonplaceholder.typicode.com/` – Free fake REST API
 * `https://reqres.in/` – Another great test API for practicing POST/PUT/DELETE
-
-```
-📷 Image Suggestion: "API Playground Examples"
-
-- Icons/logos of test APIs (JSONPlaceholder, Reqres)
-- Sample endpoints with status tags: GET /users, POST /posts, etc.
-```
 
 ---
 
@@ -241,13 +218,7 @@ JSON is commonly used in `POST`, `PUT`, and `PATCH` requests to send data to the
 }
 ```
 
-```
-📷 Image Suggestion: "JSON Breakdown"
-
-- Visual representation of JSON object
-- Highlight keys and values
-- Label syntax: quotes, colons, commas
-```
+![JSON Breakdown](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/JSON%20Breakdown.png)
 
 ---
 
@@ -292,13 +263,7 @@ JSON:
 
 You’ll receive a response echoing your data, with a new `id`.
 
-```
-📷 Image Suggestion: "POST Request with JSON Body in Postman"
-
-- JSON body section clearly filled
-- Headers auto-setting Content-Type
-- Response showing the new post with generated ID
-```
+![POST Request with JSON Body in Postman](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/POST%20Request%20with%20JSON%20Body%20in%20Postman.mp4)
 
 ---
 
@@ -339,12 +304,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/1')
   });
 ```
 
-```
-📷 Image Suggestion: "Flow of Fetch GET Request"
-
-- Webpage → API (GET) → JSON Response
-- Console logs or shows data on screen
-```
+![Flow of Fetch GET Request](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Flow%20of%20Fetch%20GET%20Request.png)
 
 ---
 
@@ -367,12 +327,7 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
   .catch(error => console.error('Error:', error));
 ```
 
-```
-📷 Image Suggestion: "Fetch POST Flow"
-
-- Show form → JSON.stringify() → Fetch with POST → API Response
-- Highlight headers and body structure
-```
+![Fetch POST Flow](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Fetch%20POST%20Flow.png)
 
 ---
 
