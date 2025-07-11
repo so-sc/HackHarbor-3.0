@@ -49,17 +49,18 @@ Basics to Advanced C programming course and technologies for HackHarbor 3.0
 ### 🔹 D-7
 
 - [C](C/day7.md): _Implementation and understanding of linked lists in C._
+- [Technology](Tech/day7.md): _Generative AI, LLM APIs, Prompt Engineering & AI Tools_
 
 ---
 
 ### 🔹 D-8
 
-- [Technology](Tech/day8.md): _Understand containerization with Docker and an intro to Large Language Models (LLMs)._
+- [Technology](Tech/day8.md): _Docker and Open Source._
 
 ---
 
 ### 🔹 D-9
 
-- [Technology](Tech/day9.md): _Introduction to SQL, relational databases, and a look at open-source contribution._
+- [Technology](Tech/day9.md): _Database and SQL._
 
 ---

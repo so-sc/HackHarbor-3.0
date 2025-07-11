@@ -10,6 +10,8 @@ description: "Introduction to Cloud Computing and Hands-on Deployment"
 
 Cloud computing is the delivery of computing services—like servers, storage, and applications—over the internet. Instead of managing physical hardware, you rent what you need from a cloud provider, paying only for usage.
 
+![Cloud Computing Overview](https://cf-assets.www.cloudflare.com/slt3lc6tev37/3YT0gya2bkUeuMrnGxhjAZ/4146c20c214cf001c74c0868ddfb9503/what-is-the-cloud.png)
+
 ### Why Cloud?
 
 - **Scalable**: Grows with your needs
@@ -32,6 +34,8 @@ From personal data centers to shared infrastructure offered by tech giants like 
 - **Hybrid Cloud**: Combines public and private
 - **Community Cloud**: Shared among similar organizations
 
+![Deployment Models](https://www.cloudflare.com/img/learning/serverless/glossary/platform-as-a-service-paas/saas-paas-iaas-diagram.svg)
+
 ### Service Models
 
 - **IaaS**: Infrastructure as a Service (e.g., AWS EC2)
@@ -45,32 +49,52 @@ From personal data centers to shared infrastructure offered by tech giants like 
 ### ☁️ Cloud Storage
 
 Store and retrieve data using:
-- **Amazon S3**
-- **Google Cloud Storage**
-- Use case: File uploads, backups, hosting static files
+
+- **Amazon S3** – [S3 Docs](https://aws.amazon.com/s3/)
+- **Google Cloud Storage** – [GCS Docs](https://cloud.google.com/storage)
+
+Use case: File uploads, backups, hosting static files
+
+---
 
 ### 💻 Virtual Machines
 
 Create servers in the cloud:
-- **Amazon EC2**, **Google Compute Engine**
-- Use case: Full control over OS and environment
+
+- **Amazon EC2** – [EC2 Docs](https://aws.amazon.com/ec2/)
+- **Google Compute Engine** – [GCE Docs](https://cloud.google.com/compute)
+
+Use case: Full control over OS and environment
+
+---
 
 ### ⚙️ Serverless Computing
 
 Run backend code without managing servers:
-- **AWS Lambda**, **Google Cloud Functions**
-- Use case: APIs, automation tasks
+
+- **AWS Lambda** – [Lambda Docs](https://aws.amazon.com/lambda/)
+- **Google Cloud Functions** – [GCF Docs](https://cloud.google.com/functions)
+
+Use case: APIs, automation tasks
+
+
+---
 
 ### 📦 Containers
 
 Package apps and run them anywhere:
-- **Docker** on cloud platforms (AWS ECS, GCP Cloud Run)
-- Use case: Microservices, reproducible dev environments
+
+- **Docker** – [Docker Docs](https://docs.docker.com/)
+- **AWS ECS**, **GCP Cloud Run**
+
+Use case: Microservices, reproducible dev environments
+
+---
 
 ### 🌐 Networking Basics
 
-- **DNS (Domain Name System)**: Converts names to IPs
-- **CDN (Content Delivery Network)**: Faster content delivery
+- **DNS**: Converts names to IPs
+- **CDN**: Faster content delivery
 - **Load Balancers**: Distribute traffic across servers
 
 ---
@@ -81,22 +105,37 @@ Package apps and run them anywhere:
 
 - **Domain**: The name of your website (e.g., `example.com`)
 - **DNS**: Maps domain names to IP addresses
-- Services like **Namecheap**, **GoDaddy**, or **Google Domains** let you buy domains and configure DNS.
+
+Use services like:
+
+- [Namecheap](https://namecheap.com)
+- [GoDaddy](https://godaddy.com)
+- [Google Domains](https://domains.google/)
+
+---
 
 ### 🔐 SSL Certificates & HTTPS
 
-- **HTTPS** encrypts data between the browser and server.
-- **SSL Certificates** enable HTTPS and prove your site's identity.
-- Services like **Let's Encrypt** or **Vercel/Netlify** offer free automatic SSL setup.
+- **HTTPS** encrypts data between the browser and server
+- **SSL Certificates** prove your site’s identity
+
+Free options:
+
+- [Let’s Encrypt](https://letsencrypt.org/)
+- [Vercel](https://vercel.com), [Netlify](https://netlify.com)
 
 ---
 
 ## Free Cloud Providers for Learning
 
-- **Google Cloud Platform (GCP)** – $300 in free credits
-- **AWS Free Tier** – 12-month free usage on selected services
-- **Microsoft Azure** – $200 credit + free tier
-- **Render, Vercel, Netlify** – Free static site and serverless hosting
+| Platform        | Free Tier                                                                           |
+| --------------- | ----------------------------------------------------------------------------------- |
+| Google Cloud    | $300 in credits + free tier – [GCP Free Tier](https://cloud.google.com/free)        |
+| AWS             | 12-month free tier – [AWS Free Tier](https://aws.amazon.com/free/)                  |
+| Microsoft Azure | $200 credit + free services – [Azure Free](https://azure.microsoft.com/en-us/free/) |
+| Render          | Free static & backend hosting – [Render](https://render.com)                        |
+| Vercel          | Great for frontend – [Vercel](https://vercel.com)                                   |
+| Netlify         | Static hosting + serverless – [Netlify](https://netlify.com)                        |
 
 ---
 
@@ -108,35 +147,17 @@ Let’s deploy your HTML/CSS project using **Vercel**—a beginner-friendly plat
 
 1. **Prepare your project**
 
-   - Create a folder with `index.html` and your `styles.css` or assets.
+   Create a folder with:
+
+   - `index.html`
+   - `styles.css` or assets
 
 2. **Push to GitHub**
 
-   - Initialize Git:
-     ```bash
-     git init
-     git add .
-     git commit -m "Initial commit"
-     git remote add origin https://github.com/yourusername/project-name.git
-     git push -u origin main
-     ```
-
-3. **Sign Up on [vercel.com](https://vercel.com)**
-
-   - Use your GitHub account.
-
-4. **Import Project**
-
-   - Click **“Add New → Project”**.
-   - Select your GitHub repo.
-
-5. **Configure and Deploy**
-
-   - No build steps needed for plain HTML/CSS.
-   - Click **Deploy**.
-
-6. **Done!**
-   - Your site will be live at `https://your-project-name.vercel.app`.
-
-
-
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin https://github.com/yourusername/project-name.git
+   git push -u origin main
+   ```
