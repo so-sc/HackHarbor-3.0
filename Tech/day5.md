@@ -354,30 +354,6 @@ Postman usually adds this automatically when JSON is selected.
 
 ---
 
-## 🛠️ Summary Use Case
-
-Sending a registration form:
-
-```json
-{
-  "username": "kvlogs",
-  "password": "securepass",
-  "email": "k@example.com"
-}
-```
-
-Server can then create a new user with this info.
-
-```
-📷 Image Suggestion: "Frontend Form to JSON"
-
-- Simple form (Username, Password, Email)
-- Arrows showing how it's converted to JSON
-- JSON sent in body of POST request
-```
-
----
-
 # 📘 Topic 5: Using APIs with JavaScript (Fetch API)
 
 ## 🧠 Why Use JavaScript for APIs?
