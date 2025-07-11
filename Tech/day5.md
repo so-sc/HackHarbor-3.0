@@ -346,12 +346,7 @@ fetch('https://jsonplaceholder.typicode.com/users/1')
 </script>
 ```
 
-```
-📷 Image Suggestion: "Live Data Binding"
-
-- Box on webpage showing name loaded via JS
-- Show timeline: API → JS → DOM Update
-```
+![Live Data Binding](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Live%20Data%20Binding.png)
 
 ---
 
@@ -360,11 +355,7 @@ fetch('https://jsonplaceholder.typicode.com/users/1')
 * Use **browser console** to log request and response
 * Check **Network tab** in DevTools to inspect the actual HTTP traffic
 
-```
-📷 Image Suggestion: "Browser DevTools Network Tab"
-
-- Highlight request URL, status code, response preview
-```
+![Browser DevTools Network Tab](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Browser%20DevTools%20Network%20Tab.png)
 
 ---
 
@@ -376,13 +367,7 @@ An **API Key** is a unique code used to identify and authorize your access to an
 
 Many public APIs (like OpenWeather or Google AI Studio) require you to sign up and get an API key to use their services.
 
-```
-📷 Image Suggestion: "API Key Concept"
-
-- Lock and key icon
-- Label: Client → API Key → Access Granted
-- Warning symbol for public exposure
-```
+![API Key Concept](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/API%20Key%20Concept.png)
 
 ---
 
@@ -405,12 +390,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY
 * `q` → city name
 * `appid` → your unique key
 
-```
-📷 Image Suggestion: "OpenWeather in Postman"
-
-- Screenshot of GET request with city name and key
-- Response showing weather, temperature, city info
-```
+![OpenWeather in Postman](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/OpenWeather%20in%20Postman.png)
 
 ---
 
@@ -425,11 +405,12 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY
 ### 📬 Use in Postman:
 
 * Method: `POST`
-* URL: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_API_KEY`
+* URL: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent`
 * Headers:
 
 ```
 Content-Type: application/json
+X-goog-api-key: GEMINI_API_KEY
 ```
 
 * Body (raw JSON):
@@ -440,13 +421,8 @@ Content-Type: application/json
 }
 ```
 
-```
-📷 Image Suggestion: "Postman Google AI Prompt"
-
-- POST request with headers
-- JSON body prompt for AI response
-- Output: joke or text from Gemini
-```
+![Postman Google AI Prompt Headers](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Postman%20Google%20AI%20Prompt%20Headers.png)
+![Postman Google AI Prompt Body](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Postman%20Google%20AI%20Prompt%20Body.png)
 
 ---
 
@@ -491,13 +467,6 @@ Create a basic webpage that fetches data from an API (like OpenWeather) and disp
 </html>
 ```
 
-```
-📷 Image Suggestion: "Simple Weather UI Layout"
-
-- Input + Button + Result box
-- Clean layout with centered form
-```
-
 ---
 
 ## ⚙️ JavaScript – Fetching Weather API
@@ -520,13 +489,6 @@ function getWeather() {
 }
 ```
 
-```
-📷 Image Suggestion: "Weather Fetch JS Flow"
-
-- Show flow: Input → Fetch → Response → DOM update
-- Highlight use of template literals & DOM APIs
-```
-
 ---
 
 ## 🧪 Try It Out
@@ -544,13 +506,6 @@ function getWeather() {
 * Free API keys often have rate limits (60 calls/minute for OpenWeather)
 * Always handle errors (e.g. wrong city name, no internet, key expired)
 
-```
-📷 Image Suggestion: "Error Handling Flow"
-
-- Diagram showing 2 branches: Success vs Error
-- Display message in UI accordingly
-```
-
 ---
 
 # 📘 Topic 8: Limitations of APIs & Practical Tips
@@ -561,13 +516,6 @@ function getWeather() {
 
 * Most APIs have a limit on the number of requests per minute/hour.
 * Exceeding limits may lead to blocked requests.
-
-```
-📷 Image Suggestion: "Rate Limiting"
-
-- Graph showing requests per minute
-- Warning message: "429 Too Many Requests"
-```
 
 ---
 
@@ -582,13 +530,6 @@ function getWeather() {
 
 * Some APIs block frontend requests from different origins (browser security).
 * Error: `Access-Control-Allow-Origin` missing
-
-```
-📷 Image Suggestion: "CORS Error Explained"
-
-- Diagram: Browser → API (blocked)
-- Error message: "CORS Policy: No 'Access-Control-Allow-Origin'..."
-```
 
 ---
 
@@ -607,13 +548,6 @@ function getWeather() {
 * ✅ Respect rate limits and retry if necessary
 * ✅ Store keys securely (use `.env`, don’t push to GitHub)
 * ✅ Test with known working inputs before dynamic data
-
-```
-📷 Image Suggestion: "Do's and Don'ts of API Usage"
-
-- Column split with green ticks and red crosses
-- Examples: Use .env ✅, Hardcode key ❌, Test first ✅, Assume success ❌
-```
 
 ---
 
