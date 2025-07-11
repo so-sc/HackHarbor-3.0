@@ -27,8 +27,7 @@ The **Web** (World Wide Web) is a system of interlinked hypertext documents acce
 | Static  | Content doesn’t change unless manually updated | HTML, CSS                          |
 | Dynamic | Content changes based on interaction or data   | HTML, CSS, **JavaScript**, Backend |
 
-### 🖼️ *[IMAGE PLACEHOLDER: Static vs Dynamic Page Illustration]*  
-*Suggested: Side-by-side image of a static HTML page and a dynamic page showing real-time update or form submission.*
+![Side-by-side image of a static HTML page and a dynamic page showing real-time update or form submission](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/static-vs-dynamic-website.webp)
 
 <br>
 
@@ -76,8 +75,7 @@ V8 is Google's open-source JavaScript engine written in C++.
 - Converts JS code to **machine code** for speed
 - Compiles JS at runtime using **JIT (Just-In-Time Compilation)**
 
-### 🖼️ *[IMAGE PLACEHOLDER: V8 Architecture Block Diagram]*  
-*Suggested: Diagram showing JS → Parser → AST → JIT → Machine Code*
+![Diagram showing JS → Parser → AST → JIT → Machine Code](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/v8-engine.png)
 
 <br>
 
@@ -255,6 +253,7 @@ JavaScript can:
 ## 🖼️ \[IMAGE PLACEHOLDER: Diagram Showing HTML, CSS, and JS Layers Working Together]
 
 > Suggested: A pyramid or Venn diagram with HTML at base, CSS above, and JS on top adding dynamic behavior.
+![A pyramid with HTML at base, CSS above, and JS on top adding dynamic behavior](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/pyramid-html-css-js.png)
 
 <br>
 
@@ -776,9 +775,17 @@ for (let key in student) {
 
 <br>
 
-## 🖼️ \[IMAGE PLACEHOLDER: Visual Difference Between Arrays and Objects]
+| Array                              | Object                                 |
+|------------------------------------|----------------------------------------|
+| `let fruits = [`                   | `let student = {`                      |
+| `  "apple",`                       | `  name: "Alice",`                     |
+| `  "banana",`                      | `  age: 20,`                           |
+| `  "cherry"`                       | `  isGraduate: true`                   |
+| `];`                               | `};`                                   |
+|                                    |                                        |
+| `console.log(fruits[0]);`          | `console.log(student.name);`           |
+| `// "apple"`                       | `// "Alice"`                           |
 
-> Suggested: Side-by-side comparison of array index and object key/value
 
 <br>
 
@@ -907,6 +914,7 @@ document.getElementById("myImg").setAttribute("alt", "Sample Image");
 ## 🖼️ \[IMAGE PLACEHOLDER: DOM Tree Diagram]
 
 > Suggested: Diagram showing hierarchy of HTML tags as tree nodes
+![Diagram showing hierarchy of HTML tags as tree nodes](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/dom-tree-strucutre.png)
 
 <br>
 
