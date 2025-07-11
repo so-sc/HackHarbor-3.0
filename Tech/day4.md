@@ -250,9 +250,6 @@ JavaScript can:
 
 <br>
 
-## 🖼️ \[IMAGE PLACEHOLDER: Diagram Showing HTML, CSS, and JS Layers Working Together]
-
-> Suggested: A pyramid or Venn diagram with HTML at base, CSS above, and JS on top adding dynamic behavior.
 ![A pyramid with HTML at base, CSS above, and JS on top adding dynamic behavior](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/pyramid-html-css-js.png)
 
 <br>
@@ -403,9 +400,7 @@ let city;                // Undefined
 
 <br>
 
-## 🖼️ \[IMAGE PLACEHOLDER: Variable Lifecycle or Type Chart]
-
-> Suggested: Diagram showing declaration → assignment → usage for variables or a chart showing all primitive types
+![chart showing all primitive and non-primitive types](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/datatypes-js.png)
 
 <br>
 
@@ -517,9 +512,7 @@ You can attach events using:
 
 <br>
 
-## 🖼️ \[IMAGE PLACEHOLDER: Function Flow Diagram or Event Lifecycle]
-
-> Suggested: Diagram showing function call stack or how events flow from browser to handler
+![Diagram showing function call stack or how events flow from browser to handler](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/function-call-stack-js.png)
 
 <br>
 
@@ -656,9 +649,7 @@ for (let i = 1; i <= 5; i++) {
 
 <br>
 
-## 🖼️ \[IMAGE PLACEHOLDER: Conditional + Loop Flowchart]
-
-> Suggested: Flowchart showing branching (if/else) and loop cycles
+![Flowchart showing branching and loop cycles](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/conditional-looping-js.jpg)
 
 <br>
 
@@ -911,9 +902,6 @@ document.getElementById("myImg").setAttribute("alt", "Sample Image");
 
 <br>
 
-## 🖼️ \[IMAGE PLACEHOLDER: DOM Tree Diagram]
-
-> Suggested: Diagram showing hierarchy of HTML tags as tree nodes
 ![Diagram showing hierarchy of HTML tags as tree nodes](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/dom-tree-strucutre.png)
 
 <br>
