@@ -164,6 +164,8 @@ docker run alpine
 
  * Test Wi-Fi access for cloning and pushing to repositories
 
+  **Note to mentors**: Briefly talk about the history of open source.
+
 ## 1. What is Open Source?
 
 * **Definition:**
