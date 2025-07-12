@@ -68,7 +68,7 @@ description: "Docker and Open Source"
 
 ---
 
-## 3. Hands-On: Getting Started with Docker
+## 3. Common Commands: Getting Started with Docker
 
 * **Check Docker Installation:**
 
