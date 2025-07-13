@@ -21,6 +21,9 @@ description: "Covers basics of CLI and helps students get started with git"
 * Walk through the Git workflow step-by-step and check progress at each stage
 * Pair up students if anyone falls behind
 
+> [!WARNING]  
+> Do not forget to teach about connecting git with github. And please use SSH for authentication
+
 ### After Class:
 
 * Ask students to create another Git repo for practice
@@ -105,14 +108,75 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-Initialize Git in your project folder:
+---
+
+### Setting Up Authentication
+
+It's recommended to use **SSH instead of HTTPS**, as it avoids repeated login prompts and simplifies authentication in the long run.
+
+Helpful resources:
+
+* 📘 [Setting up Git (The Odin Project)](https://www.theodinproject.com/lessons/foundations-setting-up-git)
+* 🎥 [Video Guide](https://youtu.be/snCP3c7wXw0?si=Bw8ulNhQBEVxC2yc)
+
+---
+
+#### 1. Generate an SSH Key (Git Bash)
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+* Press **Enter** to accept the default file location.
+* Press **Enter** again to skip setting a passphrase.
+
+---
+
+#### 2. Start the SSH agent and add your key
+
+**In Git Bash:**
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+
+**In PowerShell (Run as Administrator the first time):**
+
+```powershell
+Set-Service ssh-agent -StartupType Automatic
+Start-Service ssh-agent
+ssh-add $env:USERPROFILE\.ssh\id_ed25519
+```
+
+---
+
+#### 3. Add the SSH key to GitHub
+
+1. Display your public key: (in Git bash)
+
+   ```bash
+   cat ~/.ssh/id_ed25519.pub
+   ```
+
+2. Copy the entire output.
+
+3. Go to [https://github.com/settings/keys](https://github.com/settings/keys)
+
+4. Click **"New SSH key"**, paste the key, and give it a descriptive title (e.g., *"Windows laptop"*).
+
+---
+
+### Initialize Git in Your Project
+
+Navigate to your project folder and run:
 
 ```bash
 cd your-project-folder
 git init
 ```
 
-This creates a `.git` directory which tracks your changes.
+This creates a `.git` directory that allows Git to track changes in your project.
 
 ---
 
