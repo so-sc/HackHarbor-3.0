@@ -68,7 +68,7 @@ description: "Docker and Open Source"
 
 ---
 
-## 3. Hands-On: Getting Started with Docker
+## 3. Common Commands: Getting Started with Docker
 
 * **Check Docker Installation:**
 
@@ -164,7 +164,10 @@ docker run alpine
 
  * Test Wi-Fi access for cloning and pushing to repositories
 
+
 ## 1. What is Open Source?
+
+**Note to mentors**: Briefly talk about the history of open source.
 
 * **Definition:**
   

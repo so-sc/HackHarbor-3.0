@@ -21,14 +21,7 @@ It acts as a **messenger** between two software components, allowing them to com
 > * The waiter (API) takes your request to the kitchen.
 > * The kitchen (server) prepares the food and sends it back through the waiter (API).
 
-```
-📷 Image Suggestion: "API as Waiter Analogy"
-
-- Left: A person sitting at a table holding a menu (User)
-- Middle: A waiter labeled "API" taking notes
-- Right: A kitchen (Server) preparing food
-- Arrow showing flow: User → API → Server → API → User
-```
+![Waiter example for an API](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/api-waiter-visual.webp)
 
 ---
 
@@ -62,13 +55,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=API_KEY
 
 📦 The server responds with structured weather data in JSON format.
 
-```
-📷 Image Suggestion: "Weather API Request-Response Flow"
-
-- Browser or App → Weather API URL with query param (?q=Delhi)
-- Server responds with JSON (temperature, city name, etc.)
-- Label key parts: URL, Request, Response, JSON Data
-```
+![Weather API Request-Response Flow](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Weather%20API%20Response.png)
 
 ---
 
@@ -86,14 +73,8 @@ Body:
 }
 ```
 
-```
-📷 Image Suggestion: "POST Request with JSON Body"
+![POST Request with JSON Body](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/POST%20Request%20with%20JSON%20Body.png)
 
-- Frontend UI: Form with title & body
-- Arrow → API endpoint with JSON
-- Show the structure of body fields being sent
-- Mention Content-Type: application/json
-```
 ---
 
 # 📘 Topic 2: REST, HTTP Methods & Status Codes
@@ -104,13 +85,7 @@ Body:
 
 A RESTful API uses **resources**, identified by **URLs**, and standard **HTTP methods** to perform actions on them.
 
-```
-📷 Image Suggestion: "RESTful API Resource Model"
-
-- Icons representing 'Post', 'User', 'Comment'
-- Each resource mapped to a URL like /posts, /users, /comments
-- Arrows showing HTTP methods like GET, POST, PUT, DELETE operating on them
-```
+![RESTful API Resource Model](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/RESTful%20API%20Resource%20Model.png)
 
 ---
 
@@ -135,14 +110,6 @@ A RESTful API uses **resources**, identified by **URLs**, and standard **HTTP me
 | Update a post   | `PUT`    | `/posts/1` |
 | Delete a post   | `DELETE` | `/posts/1` |
 
-```
-📷 Image Suggestion: "HTTP Method to Action Mapping"
-
-- REST resource 'Post'
-- Lines from each method → a different action (like retrieve, create, update, delete)
-- Add a sample endpoint for each method (GET /posts/1, etc.)
-```
-
 ---
 
 ## 📟 HTTP Status Codes
@@ -156,14 +123,7 @@ A RESTful API uses **resources**, identified by **URLs**, and standard **HTTP me
 | 404  | Not Found             | Resource not found                   |
 | 500  | Internal Server Error | Generic server failure               |
 
-```
-📷 Image Suggestion: "HTTP Status Code Chart"
-
-- Green: 2xx Success
-- Yellow: 4xx Client Error
-- Red: 5xx Server Error
-- Include examples like 200 OK, 404 Not Found, etc.
-```
+![HTTP Status Code Chart](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/HTTP%20Status%20Code%20Chart.png)
 
 ---
 
@@ -175,12 +135,7 @@ A RESTful API uses **resources**, identified by **URLs**, and standard **HTTP me
 
 You can send requests like `GET`, `POST`, `PUT`, and `DELETE` and view responses easily — great for learning and testing.
 
-```
-📷 Image Suggestion: "Postman Interface Overview"
-
-- Screenshot showing Postman UI
-- Highlight: Method dropdown (GET, POST), URL input box, Body tab, and Send button
-```
+![Postman Interface Overview](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Postman%20Interface%20Overview.png)
 
 ---
 
@@ -206,12 +161,7 @@ Postman will show a JSON response like:
 }
 ```
 
-```
-📷 Image Suggestion: "GET Request in Postman"
-
-- URL bar filled with JSONPlaceholder URL
-- Response panel showing JSON data
-```
+![GET Request in Postman](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/GET%20Request%20in%20Postman.png)
 
 ---
 
@@ -234,13 +184,7 @@ Postman will show a JSON response like:
 
 You’ll see a response with your submitted data and a new `id`.
 
-```
-📷 Image Suggestion: "POST Request with Body in Postman"
-
-- Highlight JSON Body tab and dropdown set to `application/json`
-- Response showing created resource with `id`
-```
-
+![POST Request with Body in Postman](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/POST%20Request%20with%20Body%20in%20Postman.png)
 ---
 
 ## 📋 Headers to Know
@@ -254,13 +198,6 @@ You’ll see a response with your submitted data and a new `id`.
 
 * `https://jsonplaceholder.typicode.com/` – Free fake REST API
 * `https://reqres.in/` – Another great test API for practicing POST/PUT/DELETE
-
-```
-📷 Image Suggestion: "API Playground Examples"
-
-- Icons/logos of test APIs (JSONPlaceholder, Reqres)
-- Sample endpoints with status tags: GET /users, POST /posts, etc.
-```
 
 ---
 
@@ -281,13 +218,7 @@ JSON is commonly used in `POST`, `PUT`, and `PATCH` requests to send data to the
 }
 ```
 
-```
-📷 Image Suggestion: "JSON Breakdown"
-
-- Visual representation of JSON object
-- Highlight keys and values
-- Label syntax: quotes, colons, commas
-```
+![JSON Breakdown](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/JSON%20Breakdown.png)
 
 ---
 
@@ -332,13 +263,7 @@ JSON:
 
 You’ll receive a response echoing your data, with a new `id`.
 
-```
-📷 Image Suggestion: "POST Request with JSON Body in Postman"
-
-- JSON body section clearly filled
-- Headers auto-setting Content-Type
-- Response showing the new post with generated ID
-```
+![POST Request with JSON Body in Postman](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/POST%20Request%20with%20JSON%20Body%20in%20Postman.mp4)
 
 ---
 
@@ -351,30 +276,6 @@ Content-Type: application/json
 ```
 
 Postman usually adds this automatically when JSON is selected.
-
----
-
-## 🛠️ Summary Use Case
-
-Sending a registration form:
-
-```json
-{
-  "username": "kvlogs",
-  "password": "securepass",
-  "email": "k@example.com"
-}
-```
-
-Server can then create a new user with this info.
-
-```
-📷 Image Suggestion: "Frontend Form to JSON"
-
-- Simple form (Username, Password, Email)
-- Arrows showing how it's converted to JSON
-- JSON sent in body of POST request
-```
 
 ---
 
@@ -403,12 +304,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/1')
   });
 ```
 
-```
-📷 Image Suggestion: "Flow of Fetch GET Request"
-
-- Webpage → API (GET) → JSON Response
-- Console logs or shows data on screen
-```
+![Flow of Fetch GET Request](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Flow%20of%20Fetch%20GET%20Request.png)
 
 ---
 
@@ -431,12 +327,7 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
   .catch(error => console.error('Error:', error));
 ```
 
-```
-📷 Image Suggestion: "Fetch POST Flow"
-
-- Show form → JSON.stringify() → Fetch with POST → API Response
-- Highlight headers and body structure
-```
+![Fetch POST Flow](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Fetch%20POST%20Flow.png)
 
 ---
 
@@ -455,12 +346,7 @@ fetch('https://jsonplaceholder.typicode.com/users/1')
 </script>
 ```
 
-```
-📷 Image Suggestion: "Live Data Binding"
-
-- Box on webpage showing name loaded via JS
-- Show timeline: API → JS → DOM Update
-```
+![Live Data Binding](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Live%20Data%20Binding.png)
 
 ---
 
@@ -469,11 +355,7 @@ fetch('https://jsonplaceholder.typicode.com/users/1')
 * Use **browser console** to log request and response
 * Check **Network tab** in DevTools to inspect the actual HTTP traffic
 
-```
-📷 Image Suggestion: "Browser DevTools Network Tab"
-
-- Highlight request URL, status code, response preview
-```
+![Browser DevTools Network Tab](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Browser%20DevTools%20Network%20Tab.png)
 
 ---
 
@@ -485,13 +367,7 @@ An **API Key** is a unique code used to identify and authorize your access to an
 
 Many public APIs (like OpenWeather or Google AI Studio) require you to sign up and get an API key to use their services.
 
-```
-📷 Image Suggestion: "API Key Concept"
-
-- Lock and key icon
-- Label: Client → API Key → Access Granted
-- Warning symbol for public exposure
-```
+![API Key Concept](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/API%20Key%20Concept.png)
 
 ---
 
@@ -514,12 +390,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY
 * `q` → city name
 * `appid` → your unique key
 
-```
-📷 Image Suggestion: "OpenWeather in Postman"
-
-- Screenshot of GET request with city name and key
-- Response showing weather, temperature, city info
-```
+![OpenWeather in Postman](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/OpenWeather%20in%20Postman.png)
 
 ---
 
@@ -534,11 +405,12 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=YOUR_API_KEY
 ### 📬 Use in Postman:
 
 * Method: `POST`
-* URL: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY`
+* URL: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent`
 * Headers:
 
 ```
 Content-Type: application/json
+X-goog-api-key: GEMINI_API_KEY
 ```
 
 * Body (raw JSON):
@@ -549,13 +421,8 @@ Content-Type: application/json
 }
 ```
 
-```
-📷 Image Suggestion: "Postman Google AI Prompt"
-
-- POST request with headers
-- JSON body prompt for AI response
-- Output: joke or text from Gemini
-```
+![Postman Google AI Prompt Headers](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Postman%20Google%20AI%20Prompt%20Headers.png)
+![Postman Google AI Prompt Body](https://github.com/so-sc/HackHarbor-3.0/blob/main/Tech/assets/Postman%20Google%20AI%20Prompt%20Body.png)
 
 ---
 
@@ -600,13 +467,6 @@ Create a basic webpage that fetches data from an API (like OpenWeather) and disp
 </html>
 ```
 
-```
-📷 Image Suggestion: "Simple Weather UI Layout"
-
-- Input + Button + Result box
-- Clean layout with centered form
-```
-
 ---
 
 ## ⚙️ JavaScript – Fetching Weather API
@@ -629,13 +489,6 @@ function getWeather() {
 }
 ```
 
-```
-📷 Image Suggestion: "Weather Fetch JS Flow"
-
-- Show flow: Input → Fetch → Response → DOM update
-- Highlight use of template literals & DOM APIs
-```
-
 ---
 
 ## 🧪 Try It Out
@@ -653,13 +506,6 @@ function getWeather() {
 * Free API keys often have rate limits (60 calls/minute for OpenWeather)
 * Always handle errors (e.g. wrong city name, no internet, key expired)
 
-```
-📷 Image Suggestion: "Error Handling Flow"
-
-- Diagram showing 2 branches: Success vs Error
-- Display message in UI accordingly
-```
-
 ---
 
 # 📘 Topic 8: Limitations of APIs & Practical Tips
@@ -670,13 +516,6 @@ function getWeather() {
 
 * Most APIs have a limit on the number of requests per minute/hour.
 * Exceeding limits may lead to blocked requests.
-
-```
-📷 Image Suggestion: "Rate Limiting"
-
-- Graph showing requests per minute
-- Warning message: "429 Too Many Requests"
-```
 
 ---
 
@@ -691,13 +530,6 @@ function getWeather() {
 
 * Some APIs block frontend requests from different origins (browser security).
 * Error: `Access-Control-Allow-Origin` missing
-
-```
-📷 Image Suggestion: "CORS Error Explained"
-
-- Diagram: Browser → API (blocked)
-- Error message: "CORS Policy: No 'Access-Control-Allow-Origin'..."
-```
 
 ---
 
@@ -716,13 +548,6 @@ function getWeather() {
 * ✅ Respect rate limits and retry if necessary
 * ✅ Store keys securely (use `.env`, don’t push to GitHub)
 * ✅ Test with known working inputs before dynamic data
-
-```
-📷 Image Suggestion: "Do's and Don'ts of API Usage"
-
-- Column split with green ticks and red crosses
-- Examples: Use .env ✅, Hardcode key ❌, Test first ✅, Assume success ❌
-```
 
 ---
 
