@@ -6,8 +6,6 @@ description: "Webdev basics - Intro to HTML CSS, How the web works, Dynamic and 
 
 ## 1. How the Web Works
 
-### **What to Teach (Expanded with More Explanation):**
-
 ---
 
 #### **Internet vs. World Wide Web**
@@ -65,17 +63,6 @@ description: "Webdev basics - Intro to HTML CSS, How the web works, Dynamic and 
 
 ---
 
-#### **Static vs. Dynamic Websites**
-- **Static Website:**  
-  Shows the same content to every visitor. Built with HTML, CSS (and sometimes JavaScript files). Simple and fast, but not interactive (e.g., a personal portfolio site).
-- **Dynamic Website:**  
-  Content changes based on user input, time, or data from a database. Built with server-side languages (like PHP, Node.js, Python) and often connected to a database (e.g., Facebook, online stores).
-- **Example:**  
-  - Static: A blog with fixed pages.
-  - Dynamic: An online shop that shows different products and prices to each user.
-
----
-
 ### **Why Teach This?**
 Understanding these basics:
 - Helps students grasp what happens “behind the scenes” when they use the Internet.
@@ -122,8 +109,6 @@ Understanding these basics:
 ## 2. Introduction to HTML (HyperText Markup Language)
 
 ---
-
-### **What to Teach (Expanded with More Explanation):**
 
 #### **HTML Structure**
 - **`<!DOCTYPE html>`:**  
@@ -287,10 +272,6 @@ Learning HTML gives you the power to create and structure web content. With thes
 ---
 
 ## 3. Introduction to CSS (Cascading Style Sheets)
-
----
-
-### **What to Teach (Expanded with Explanation & Code):**
 
 ---
 
