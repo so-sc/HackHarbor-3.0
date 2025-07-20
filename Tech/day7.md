@@ -5,9 +5,6 @@ _For 2nd Year Engineering Students_
 
 ## 1️⃣ Introduction to Generative AI
 
-### What You’ll Learn
-## 1️⃣ Introduction to Generative AI
-
 ### **Definition**
 Generative AI is a rapidly evolving field of artificial intelligence focused on creating new and original content, rather than simply analyzing or categorizing existing information. These AI models are trained on large datasets—such as books, images, music, or code—and learn patterns, styles, and structures within the data. This enables them to generate entirely new outputs that resemble the examples they were trained on.  
 - **Key Point:** Unlike traditional AI, which is primarily used to sort, label, or recommend based on pre-learned rules, generative AI acts as a “creator,” capable of inventing new text, images, music, and more.
