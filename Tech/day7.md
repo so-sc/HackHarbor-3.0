@@ -168,7 +168,7 @@ Or, using Postman, send a POST request to the OpenAI endpoint with a JSON body.
 ### What You’ll Learn
 
 ---
-![Self Hosting vs Cloud Based](https://miro.medium.com/v2/resize:fit:1200/0*zUGGFYAUKtzUmBJ7.jpg](https://compileinfy.com/wp-content/uploads/2025/04/Compileinfy-Featured-Image.png))
+![Self Hosting vs Cloud Based](https://compileinfy.com/wp-content/uploads/2025/04/Compileinfy-Featured-Image.png)
 #### **Why Run LLMs Locally?**
 
 - **Privacy:**  
