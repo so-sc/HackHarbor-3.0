@@ -8,6 +8,8 @@ _For 2nd Year Engineering Students_
 ### **Definition**
 Generative AI is a rapidly evolving field of artificial intelligence focused on creating new and original content, rather than simply analyzing or categorizing existing information. These AI models are trained on large datasets—such as books, images, music, or code—and learn patterns, styles, and structures within the data. This enables them to generate entirely new outputs that resemble the examples they were trained on.  
 - **Key Point:** Unlike traditional AI, which is primarily used to sort, label, or recommend based on pre-learned rules, generative AI acts as a “creator,” capable of inventing new text, images, music, and more.
+- 
+![How LLMs work](https://miro.medium.com/v2/resize:fit:1200/0*zUGGFYAUKtzUmBJ7.jpg)
 
 For example, generative AI can:
 - Write a poem or story in the style of Shakespeare
@@ -86,6 +88,7 @@ Ask students to think about and share at least three AI-powered tools or feature
 ---
 
 #### **What is an API?**
+![How APIs Work](https://miro.medium.com/v2/resize:fit:1200/0*RPnhGYC-I73DegE0.png)
 An **API (Application Programming Interface)** is a set of rules and protocols that allows different software programs to communicate with each other. Think of it as a waiter in a restaurant: you (the user) tell the waiter (the API) what you want, and the waiter brings your request to the kitchen (the AI model in the cloud) and then delivers the result back to you. 
 
 When using LLMs (Large Language Models), APIs let you send prompts or questions from your app or script to a powerful AI model hosted remotely (like on OpenAI’s servers) and get back answers or generated content. You don’t need to worry about how the model works on the inside—you just send your input and receive the output.
@@ -165,7 +168,7 @@ Or, using Postman, send a POST request to the OpenAI endpoint with a JSON body.
 ### What You’ll Learn
 
 ---
-
+![Self Hosting vs Cloud Based](https://miro.medium.com/v2/resize:fit:1200/0*zUGGFYAUKtzUmBJ7.jpg](https://compileinfy.com/wp-content/uploads/2025/04/Compileinfy-Featured-Image.png))
 #### **Why Run LLMs Locally?**
 
 - **Privacy:**  
@@ -248,6 +251,7 @@ A *prompt* is the message, question, command, or instruction you give to a langu
 ---
 
 #### **Prompting is Programming**
+![Prompt Engineering](https://files.realpython.com/media/Prompt-Engineering-A-Practical-Example_Watermarked.7106fe3647aa.jpg)
 
 Prompting is like a new kind of programming—using language instead of code.  
 - **Traditional programming** requires learning syntax, writing algorithms, and specifying logic step by step.  
@@ -399,6 +403,7 @@ Prompting is an art as much as a science. By mastering different techniques—li
 
 ## 6️⃣ Useful AI Tools & Websites (By Task)
 
+![Popular AI Tools](https://digicrusader.com/wp-content/uploads/2024/09/most-used-ai-tools-in-2024-683x1024.jpg)
 ### What You’ll Learn
 
 This section gives you a practical overview of leading AI-powered tools and platforms, categorized by their main use-case. You’ll discover how these tools can save time, boost creativity, and make your projects more impressive and efficient. Plus, you’ll learn critical skills for evaluating when and how to use a new AI tool.
