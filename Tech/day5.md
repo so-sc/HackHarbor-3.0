@@ -508,7 +508,197 @@ function getWeather() {
 
 ---
 
-# 📘 Topic 8: Limitations of APIs & Practical Tips
+# 🧠 Express.js Basics with Examples
+
+This guide introduces Express.js fundamentals and demonstrates core features like route handling, middleware, query parameters, and JSON communication.
+
+---
+
+## 📦 What is Express.js?
+
+**Express.js** is a minimal and flexible Node.js web application framework that provides features for building web and API servers.
+
+Install via npm:
+
+```bash
+npm install express
+```
+
+---
+
+## 🚀 Setting Up an Express Server
+
+```js
+const express = require('express');
+const cors = require('cors');
+const app = express();
+
+// Middleware
+app.use(cors({ origin: '*' }));
+app.use(express.json());
+
+app.listen(8080, () => {
+  console.log('Server is listening');
+});
+```
+
+---
+
+## 🌐 Defining Routes
+
+### `GET /`
+
+Responds with a simple string:
+
+```js
+app.get('/', (req, res) => {
+  res.send('hello');
+});
+```
+
+---
+
+## 🔍 Using Query Parameters
+
+### Example: `GET /test?name=PGS&age=30`
+
+```js
+// Middleware to check age
+const isOld = (req, res, next) => {
+  if (req.query.age >= 18) return next();
+  return res.status(401).json({ msg: "nah too young" });
+};
+
+// Middleware to check name
+const isPGS = (req, res, next) => {
+  if (req.query.name == "PGS") return next();
+  return res.status(401).json({ msg: "you aint pgs" });
+};
+
+// Route using both middlewares
+app.get("/test", isOld, isPGS, (req, res) => {
+  const name = req.query.name || "User";
+  res.json({ msg: `Hello ${name}` });
+});
+```
+
+---
+
+## 📥 POST Requests with JSON Body
+
+### `POST /testpgs`
+
+Sends back a message with data from the body.
+
+```js
+app.post("/testpgs", (req, res) => {
+  const { name, age } = req.body;
+  res.json({ msg: `hello, ${name}, you are ${age} years old` });
+});
+```
+
+Make sure to use `express.json()` middleware to parse JSON bodies.
+
+---
+
+## 🧪 Testing API Calls
+
+### `test.js` (Node.js Script)
+
+```js
+const test = async () => {
+  const res = await fetch("http://localhost:8080/testpgs", {
+    method: "POST",
+    headers: {
+      'Content-type': "Application/json"
+    },
+    body: JSON.stringify({ name: "pgs", age: "30" })
+  });
+
+  const data = await res.json();
+  console.log(data);
+};
+
+test();
+```
+
+### `test.html` (HTML + JS Client)
+
+```html
+<input type="text" id="test">
+<button onclick="test()">click me</button>
+<script>
+const test = async () => {
+  const val = document.querySelector("#test").value;
+  const res = await fetch("http://localhost:8080/testpgs", {
+    method: "POST",
+    headers: {
+      'Content-type': "Application/json"
+    },
+    body: JSON.stringify({ name: val, age: "30" })
+  });
+
+  const data = await res.json();
+  alert(data.msg);
+};
+</script>
+```
+
+---
+
+## ✅ Summary
+
+| Feature          | Description                            |
+| ---------------- | -------------------------------------- |
+| `app.get()`      | Handles GET requests                   |
+| `app.post()`     | Handles POST requests                  |
+| `express.json()` | Parses incoming JSON                   |
+| `req.query`      | Access URL query parameters (GET only) |
+| `req.body`       | Access JSON payload (POST/PUT)         |
+| `res.json()`     | Sends JSON response                    |
+| Middleware       | Logic before final route handler       |
+
+---
+
+## 🔐 API Key Reminder
+
+* Never expose your **API Keys** in public files.
+* Secure server-side code.
+
+---
+
+## ⚠️ CORS and Errors
+
+If accessing APIs from the browser, you might encounter:
+
+**"CORS Policy: No 'Access-Control-Allow-Origin'..."**
+
+* Use `cors()` middleware in Express to fix this.
+
+---
+
+## 📉 Rate Limiting
+
+Servers often restrict how many requests a client can make:
+
+* Error: `429 Too Many Requests`
+* Use backoff and retries.
+
+---
+
+## 🛠️ Error Handling Flow
+
+Use conditional branches and return JSON errors properly:
+
+```js
+if (!req.query.age) {
+  return res.status(400).json({ error: "Age required" });
+}
+```
+
+---
+
+# 📘 Topic 10: Limitations of APIs & Practical Tips
 
 ## 🚧 Common API Limitations
 
